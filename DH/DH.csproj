@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\back-image.jpg" />
+    <None Remove="Images\drill-icon.png" />
+    <None Remove="Images\dummy.png" />
+    <None Remove="Images\empty.png" />
+    <None Remove="Images\key-icon.png" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\logo2.png" />
+    <None Remove="Images\logo3.png" />
+    <None Remove="Images\logo5.png" />
+    <None Remove="Images\logoSmall.png" />
+    <None Remove="Images\user-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\back-image.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\drill-icon.png" />
+    <Resource Include="Images\dummy.png" />
+    <Resource Include="Images\empty.png" />
+    <Resource Include="Images\key-icon.png" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\logo2.png" />
+    <Resource Include="Images\logo3.png" />
+    <Resource Include="Images\logo5.png" />
+    <Resource Include="Images\logoSmall.png" />
+    <Resource Include="Images\user-icon.png" />
+  </ItemGroup>
+
+</Project>
